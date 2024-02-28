@@ -44,6 +44,10 @@ Disallow: /
 User-agent: anthropic-ai
 Disallow: /
 
+# Internet Archive's archival tool [archive]
+User-agent: archive.org_bot
+Disallow: /
+
 # ----
 # Allowed Crawlers
 # ----
@@ -151,10 +155,6 @@ Allow: /
 
 # Ask Jeeves crawler [search engine]
 User-agent: Teoma
-Allow: /
-
-# Internet Archive's archival tool [archive]
-User-agent: archive.org_bot
 Allow: /
 
 # ----
